@@ -128,7 +128,7 @@ let bands = [
 
 
   /* ======================= J ======================= */
-  ["John Newman", "https://john-newman-20-essentials.netlify.app/"],
+  ["John Newman", "https://20essentials.github.io/john-newman/"],
 
   /* ======================= K ======================= */
 
