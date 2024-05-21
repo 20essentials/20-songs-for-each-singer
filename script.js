@@ -100,19 +100,24 @@ function autocomplete(inpt, elArray) {
 let bands = [
   /* ======================= A ======================= */
   ["Arcangel", "https://20essentials.github.io/arcangel/"],
+  ["Ana Gabriel", "https://20essentials.github.io/ana-gabriel/"],
 
   /* ======================= B ======================= */
   ["Barren Gates", "https://20essentials.github.io/barren-gates/"],
 
   /* ======================= C ======================= */
   ["Cher", "https://20essentials.github.io/cher/ "],
+  ["Camilo Sesto", "https://20essentials.github.io/camilo-sesto/"],
 
 
   /* ======================= D ======================= */
   ["Deorro", "https://20essentials.github.io/deorro/"],
   ["Daddy Yankee", "https://20essentials.github.io/da-dddy-yan-kee/"],
+  ["Defqwop", "https://20essentials.github.io/defqwop/"],
+  ["Danny Ocean", "https://20essentials.github.io/danny-ocean/"],
 
   /* ======================= E ======================= */
+  ["Enrique Iglesias", "https://20essentials.github.io/enrique-iglesias/"],
 
 
   /* ======================= F ======================= */
@@ -122,13 +127,15 @@ let bands = [
 
 
   /* ======================= H ======================= */
-
+  ["Harry Styles", "https://20essentials.github.io/harry-styles/"],
+  ["Ha-ash", "https://20essentials.github.io/ha-ash/"],
 
   /* ======================= I ======================= */
 
 
   /* ======================= J ======================= */
   ["John Newman", "https://20essentials.github.io/john-newman/"],
+  ["Juan Gabriel", "https://20essentials.github.io/juan-gabriel/"],
 
   /* ======================= K ======================= */
 
@@ -147,11 +154,16 @@ let bands = [
 
   /* ======================= P ======================= */
   ["Pat Benatar", "https://20essentials.github.io/pat-benatar/"],
+  ["Pedro Suárez-Vértiz", "https://20essentials.github.io/pedro-suarez-vertiz/"],
+  ["Prince Royce", "https://20essentials.github.io/princ3-royce/"],
 
   /* ======================= Q ======================= */
 
 
   /* ======================= R ======================= */
+  ["Rocio Dúrcal", "https://20essentials.github.io/rocio-durcal/"],
+  ["Rocio Jurado", "https://20essentials.github.io/rocio-jurado"],
+  ["Romeo Santos", "https://20essentials.github.io/romeo-santos/"],
 
 
   /* ======================= S ======================= */
