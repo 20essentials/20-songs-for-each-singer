@@ -129,6 +129,7 @@ let bands = [
   /* ======================= H ======================= */
   ["Harry Styles", "https://20essentials.github.io/harry-styles/"],
   ["Ha-ash", "https://20essentials.github.io/ha-ash/"],
+  ["Hiroyuki Sawano", "https://20essentials.github.io/sawano-hiroyuki/"],
 
   /* ======================= I ======================= */
 
@@ -136,14 +137,18 @@ let bands = [
   /* ======================= J ======================= */
   ["John Newman", "https://20essentials.github.io/john-newman/"],
   ["Juan Gabriel", "https://20essentials.github.io/juan-gabriel/"],
+  ["Johnny Steele", "https://20essentials.github.io/terrence-mann/"],
 
   /* ======================= K ======================= */
+  ["Kavinsky", "https://20essentials.github.io/kavinsky/"],
 
   /* ======================= L ======================= */
+  ["Lenny Kravitz", "https://20essentials.github.io/lenny-kravitz/"],
+  ["Lady Gaga", "https://20essentials.github.io/lady-gaga/"],
 
 
   /* ======================= M ======================= */
-
+  ["Marilyn Manson", "https://20essentials.github.io/marilyn-manson/"],
 
   /* ======================= N ======================= */
 
@@ -156,6 +161,7 @@ let bands = [
   ["Pat Benatar", "https://20essentials.github.io/pat-benatar/"],
   ["Pedro Suárez-Vértiz", "https://20essentials.github.io/pedro-suarez-vertiz/"],
   ["Prince Royce", "https://20essentials.github.io/princ3-royce/"],
+  ["Paul MacCartney", "https://20essentials.github.io/paul-maccartney/"],
 
   /* ======================= Q ======================= */
 
@@ -169,8 +175,11 @@ let bands = [
   /* ======================= S ======================= */
   ["Sandra", "https://20essentials.github.io/sandra/"],
   ["Selena Gomez", "https://20essentials.github.io/selena-gomez/"],
+  ["Shakira", "https://20essentials.github.io/shakira/"],
+  ["Sawano Hiroyuki", "https://20essentials.github.io/sawano-hiroyuki/"],
 
   /* ======================= T ======================= */
+  ["Terrence Mann", "https://20essentials.github.io/terrence-mann/"],
 
   /* ======================= U ======================= */
 
