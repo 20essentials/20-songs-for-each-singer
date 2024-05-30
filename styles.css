@@ -67,6 +67,7 @@ body {
 }
 
 @keyframes my-move {
+
   0%,
   100% {
     transform: rotateX(70deg) translateZ(50px) translateY(0px);
@@ -118,8 +119,35 @@ form {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     flex-basis: 8%;
-    text-align: center;
     transition: all .4s;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .busqueda {
+      width: .9rem;
+      height: .9rem;
+      border: 3px solid currentColor;
+      border-radius: 50%;
+      position: relative;
+      transform: rotate(140deg);
+      top: -.3rem;
+      left: -.3rem;
+    }
+
+    .busqueda-barrita {
+      width: 3px;
+      height: .8rem;
+      position: absolute;
+      bottom: 100%;
+      left: 45%;
+      background-color: currentColor;
+    }
 
     &:hover {
       background-color: black;
@@ -173,6 +201,12 @@ form {
   color: white;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('font/Roboto-Regular.ttf');
+  font-display: swap;
+}
+
 .autocomplete-items a {
   text-decoration: none;
   color: white;
@@ -181,6 +215,7 @@ form {
   font-weight: 900;
   border-bottom: 1px solid rgba(255, 255, 255, .4);
   border-top: 1px solid rgba(255, 255, 255, .4);
+  font-family: 'Roboto', Verdana , Geneva,  Tahoma, sans-serif;
 }
 
 strong {
@@ -197,6 +232,7 @@ strong {
   bottom: 1rem;
   color: white;
   width: fit-content;
+  height: fit-content;
   z-index: 800;
   user-select: none;
   font-style: italic;
@@ -677,6 +713,7 @@ i:nth-child(3n + 3) {
     background-image: linear-gradient(45deg, lightgreen, lightblue, violet, lightgreen, lightblue, violet);
     background-size: 1000% 100%;
     animation: cambiar 6s ease infinite;
+
     .contenedor {
       display: none;
     }
@@ -727,6 +764,7 @@ i:nth-child(3n + 3) {
   .centrar {
     padding-bottom: 9rem;
   }
+
   .contenedor {
     margin-bottom: 7rem;
     top: 5rem;

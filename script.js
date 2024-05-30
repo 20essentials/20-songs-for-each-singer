@@ -1,7 +1,10 @@
 let d = document;
 
 console.group("Reference");
-console.log("Loader Circle ->", "https://uiverse.io/NlghtM4re/ordinary-mouse-17");
+console.log(
+  "Loader Circle ->",
+  "https://uiverse.io/NlghtM4re/ordinary-mouse-17"
+);
 console.log("Switch ->", "https://uiverse.io/csemszepp/soft-pug-40");
 console.log("Rain ->", "https://youtu.be/YhXxBhInJMI?si=Ib56mu0h76sQz9WJ");
 console.log("Svg ->", "https://svgsilh.com/es/4caf50/image/1227913.html");
@@ -23,9 +26,10 @@ function autocomplete(inpt, elArray) {
     a.setAttribute("class", "autocomplete-items");
     a.setAttribute("id", "autocomplete-list");
 
+    let miContador = 0;
     this.parentNode.appendChild(a);
 
-    for (i = 0; i < elArray.length; i++) {
+    for (i = 0; i < elArray.length && miContador < 6; i++) {
       if (
         elArray[i][0].substr(0, val.length).toUpperCase() === val.toUpperCase()
       ) {
@@ -41,6 +45,7 @@ function autocomplete(inpt, elArray) {
         });
 
         a.appendChild(b);
+        miContador++;
       }
     }
   }); /* fin */
@@ -59,8 +64,6 @@ function autocomplete(inpt, elArray) {
 
       if (currentFocus > -1) {
         if (x) x[currentFocus].click();
-        document.querySelector(".buscar").style.backgroundColor = "white";
-        document.querySelector(".buscar").style.color = "blue";
       }
     }
   }); /* fin */
@@ -99,32 +102,45 @@ function autocomplete(inpt, elArray) {
 
 let bands = [
   /* ======================= A ======================= */
-  ["Arcangel", "https://20essentials.github.io/arcangel/"],
+  ["Al Bano e Romina Power", "https://20essentials.github.io/al-bano-and-romina-power/"],
   ["Ana Gabriel", "https://20essentials.github.io/ana-gabriel/"],
+  ["Agnes Obel", "https://20essentials.github.io/agnes-obel/"],
+  ["Alphex Twin", "https://20essentials.github.io/alphex-twin/"],
+  ["Alex Bueno", "https://20essentials.github.io/alex-bueno/"],
+  ["Axol", "https://20essentials.github.io/axol/"],
+  ["Arcangel", "https://20essentials.github.io/arcangel/"],
+  ["Autechre", "https://20essentials.github.io/autechre/"],
 
   /* ======================= B ======================= */
   ["Barren Gates", "https://20essentials.github.io/barren-gates/"],
+  ["Bonobo", "https://20essentials.github.io/bonobo/"],
+  ["Bruno Mars", "https://20essentials.github.io/bruno-mars/"],
 
   /* ======================= C ======================= */
   ["Cher", "https://20essentials.github.io/cher/ "],
   ["Camilo Sesto", "https://20essentials.github.io/camilo-sesto/"],
-
+  ["Chino y Nacho", "https://20essentials.github.io/chino-y-nacho/"],
+  ["Can", "https://20essentials.github.io/can/"],
 
   /* ======================= D ======================= */
   ["Deorro", "https://20essentials.github.io/deorro/"],
   ["Daddy Yankee", "https://20essentials.github.io/da-dddy-yan-kee/"],
   ["Defqwop", "https://20essentials.github.io/defqwop/"],
   ["Danny Ocean", "https://20essentials.github.io/danny-ocean/"],
+  ["Don Omar", "https://20essentials.github.io/don-omar/"],
+  ["Drake", "https://20essentials.github.io/dr4ke/"],
+  
 
   /* ======================= E ======================= */
   ["Enrique Iglesias", "https://20essentials.github.io/enrique-iglesias/"],
-
+  ["Elton John", "https://20essentials.github.io/elton-john/"],
+  ["Edd Sheeran", "https://20essentials.github.io/edd-sheeran/"],
 
   /* ======================= F ======================= */
-
+  ["French Montana", "https://20essentials.github.io/french-montana/"],
 
   /* ======================= G ======================= */
-
+  ["Gaitán Castro", "https://20essentials.github.io/duo-hermanos-gaitan/"],
 
   /* ======================= H ======================= */
   ["Harry Styles", "https://20essentials.github.io/harry-styles/"],
@@ -133,53 +149,62 @@ let bands = [
 
   /* ======================= I ======================= */
 
-
   /* ======================= J ======================= */
   ["John Newman", "https://20essentials.github.io/john-newman/"],
   ["Juan Gabriel", "https://20essentials.github.io/juan-gabriel/"],
   ["Johnny Steele", "https://20essentials.github.io/terrence-mann/"],
+  ["Jaymes Young", "https://20essentials.github.io/james-young/"],
 
   /* ======================= K ======================= */
   ["Kavinsky", "https://20essentials.github.io/kavinsky/"],
+  ["Kanye West", "https://20essentials.github.io/kanye-west/"],
 
   /* ======================= L ======================= */
   ["Lenny Kravitz", "https://20essentials.github.io/lenny-kravitz/"],
   ["Lady Gaga", "https://20essentials.github.io/lady-gaga/"],
-
+  ["Luther Vandross", "https://20essentials.github.io/luther-v/"],
+  ["Luis Enrique", "https://20essentials.github.io/luis-enrique/"],
+  ["Lucha Reyes", "https://20essentials.github.io/lucha-reyes/"],
 
   /* ======================= M ======================= */
   ["Marilyn Manson", "https://20essentials.github.io/marilyn-manson/"],
+  ["Mike Menna", "https://20essentials.github.io/mike-menna/"],
 
   /* ======================= N ======================= */
-
 
   /* ======================= O ======================= */
   ["Ofdream", "https://20essentials.github.io/ofdream/"],
 
-
   /* ======================= P ======================= */
   ["Pat Benatar", "https://20essentials.github.io/pat-benatar/"],
-  ["Pedro Suárez-Vértiz", "https://20essentials.github.io/pedro-suarez-vertiz/"],
+  [
+    "Pedro Suárez-Vértiz",
+    "https://20essentials.github.io/pedro-suarez-vertiz/",
+  ],
   ["Prince Royce", "https://20essentials.github.io/princ3-royce/"],
   ["Paul MacCartney", "https://20essentials.github.io/paul-maccartney/"],
+  ["Pedro Capo", "https://20essentials.github.io/pedro-capo/"],
+  ["Pepe Vásquez", "https://20essentials.github.io/pepe-vasquez/"],
 
   /* ======================= Q ======================= */
-
 
   /* ======================= R ======================= */
   ["Rocio Dúrcal", "https://20essentials.github.io/rocio-durcal/"],
   ["Rocio Jurado", "https://20essentials.github.io/rocio-jurado"],
   ["Romeo Santos", "https://20essentials.github.io/romeo-santos/"],
 
-
   /* ======================= S ======================= */
   ["Sandra", "https://20essentials.github.io/sandra/"],
   ["Selena Gomez", "https://20essentials.github.io/selena-gomez/"],
   ["Shakira", "https://20essentials.github.io/shakira/"],
   ["Sawano Hiroyuki", "https://20essentials.github.io/sawano-hiroyuki/"],
+  ["Stevie Wonder", "https://20essentials.github.io/stevie-wonder/"],
+  ["Sia", "https://20essentials.github.io/sia/"],
+  
 
   /* ======================= T ======================= */
   ["Terrence Mann", "https://20essentials.github.io/terrence-mann/"],
+
 
   /* ======================= U ======================= */
 
@@ -192,6 +217,7 @@ let bands = [
   /* ======================= Y ======================= */
 
   /* ======================= Z ======================= */
+  ["Zambo Cavero", "https://20essentials.github.io/zambo-cavero/"],
 ];
 
 autocomplete(document.getElementById("myInput"), bands);
