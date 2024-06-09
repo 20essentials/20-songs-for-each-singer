@@ -102,7 +102,10 @@ function autocomplete(inpt, elArray) {
 
 let bands = [
   /* ======================= A ======================= */
-  ["Al Bano e Romina Power", "https://20essentials.github.io/al-bano-and-romina-power/"],
+  [
+    "Al Bano e Romina Power",
+    "https://20essentials.github.io/al-bano-and-romina-power/",
+  ],
   ["Ana Gabriel", "https://20essentials.github.io/ana-gabriel/"],
   ["Agnes Obel", "https://20essentials.github.io/agnes-obel/"],
   ["Alphex Twin", "https://20essentials.github.io/alphex-twin/"],
@@ -134,7 +137,6 @@ let bands = [
   ["Disfigure", "https://20essentials.github.io/disfigure/"],
   ["Don Omar", "https://20essentials.github.io/don-omar/"],
   ["Daddy Yankee", "https://20essentials.github.io/da-dddy-yan-kee/"],
-  
 
   /* ======================= E ======================= */
   ["Enrique Iglesias", "https://20essentials.github.io/enrique-iglesias/"],
@@ -142,6 +144,10 @@ let bands = [
   ["Edd Sheeran", "https://20essentials.github.io/edd-sheeran/"],
   ["Eva Ayllon + Los Kipus", "https://20essentials.github.io/eva-ayllon/"],
   ["Enigma", "https://20essentials.github.io/enigma/"],
+  [
+    "El Último De La Fila",
+    "https://20essentials.github.io/el-ultimo-de-la-fila/",
+  ],
 
   /* ======================= F ======================= */
   ["French Montana", "https://20essentials.github.io/french-montana/"],
@@ -153,9 +159,13 @@ let bands = [
   ["Harry Styles", "https://20essentials.github.io/harry-styles/"],
   ["Ha-ash", "https://20essentials.github.io/ha-ash/"],
   ["Hiroyuki Sawano", "https://20essentials.github.io/sawano-hiroyuki/"],
+  ["Hardwell", "https://20essentials.github.io/hardwell/ "],
 
   /* ======================= I ======================= */
   ["Ivan", "https://20essentials.github.io/ivan/"],
+  ["Interpol", "https://20essentials.github.io/interpol/"],
+  ["Icona Pop", "https://20essentials.github.io/icona-pop/"],
+  ["Iced Earth", "https://20essentials.github.io/iced-earth/"],
 
   /* ======================= J ======================= */
   ["John Newman", "https://20essentials.github.io/john-newman/"],
@@ -164,10 +174,13 @@ let bands = [
   ["Jaymes Young", "https://20essentials.github.io/james-young/"],
   ["Jim Yosef", "https://20essentials.github.io/jim-yosef/"],
   ["John Williams", "https://20essentials.github.io/john-williams/"],
+  ["Joy Division", "https://20essentials.github.io/joy-division/"],
+  ["Jamiroquai", "https://20essentials.github.io/jamiroquai/"],
 
   /* ======================= K ======================= */
   ["Kavinsky", "https://20essentials.github.io/kavinsky/"],
   ["Kanye West", "https://20essentials.github.io/kanye-west/"],
+  ["Kmfdm", "https://20essentials.github.io/kmfdm/"],
 
   /* ======================= L ======================= */
   ["Lenny Kravitz", "https://20essentials.github.io/lenny-kravitz/"],
@@ -177,18 +190,29 @@ let bands = [
   ["Lucha Reyes", "https://20essentials.github.io/lucha-reyes/"],
   ["Laura Branigan", "https://20essentials.github.io/laura-branigan/"],
   ["Le Castle Vania", "https://20essentials.github.io/le-castle-vania/"],
+  ["Lcd SoundSystem", "https://20essentials.github.io/lcd_soundsystem/"],
 
   /* ======================= M ======================= */
   ["Marilyn Manson", "https://20essentials.github.io/marilyn-manson/"],
-  ["Mike Menna", "https://20essentials.github.io/mike-menna/"],
+  ["Masterboy", "https://20essentials.github.io/masterboy/"],
   ["Marlon Roudette", "https://20essentials.github.io/marlon-roudette/"],
+  ["Modest Mouse", "https://20essentials.github.io/modest-mouse/"],
+  ["Miguel Bosé", "https://20essentials.github.io/miguel-bose/"],
+  ["Mr. Kitty", "https://20essentials.github.io/mr-kitty/"],
+  ["Mike Menna", "https://20essentials.github.io/mike-menna/"],
+  ["Miki Gonzales", "https://20essentials.github.io/miki-gonzales/"],
 
   /* ======================= N ======================= */
   ["Noisestorm", "https://20essentials.github.io/noisestorm/"],
+  ["NickelBack", "https://20essentials.github.io/nickelback/ "],
+  ["Narvent", "https://20essentials.github.io/narvent/"],
 
   /* ======================= O ======================= */
   ["Ofdream", "https://20essentials.github.io/ofdream/"],
-  ["Of Monsters and Men", "https://20essentials.github.io/of-monsters-and-men/"],
+  [
+    "Of Monsters and Men",
+    "https://20essentials.github.io/of-monsters-and-men/",
+  ],
 
   /* ======================= P ======================= */
   ["Pat Benatar", "https://20essentials.github.io/pat-benatar/"],
@@ -196,40 +220,52 @@ let bands = [
     "Pedro Suárez-Vértiz",
     "https://20essentials.github.io/pedro-suarez-vertiz/",
   ],
-  ["Prince Royce", "https://20essentials.github.io/princ3-royce/"],
+  ["Pastel Ghost", "https://20essentials.github.io/pastel-ghost/"],
   ["Paul MacCartney", "https://20essentials.github.io/paul-maccartney/"],
   ["Pedro Capo", "https://20essentials.github.io/pedro-capo/"],
   ["Pepe Vásquez", "https://20essentials.github.io/pepe-vasquez/"],
+  ["Prince Royce", "https://20essentials.github.io/princ3-royce/"],
+  ["Pearl Jam", "https://20essentials.github.io/pearl-jam/"],
 
   /* ======================= Q ======================= */
 
   /* ======================= R ======================= */
   ["Rocio Dúrcal", "https://20essentials.github.io/rocio-durcal/"],
   ["Rocio Jurado", "https://20essentials.github.io/rocio-jurado"],
-  ["Romeo Santos", "https://20essentials.github.io/romeo-santos/"],
+  ["Ray Sepulveda", "https://20essentials.github.io/ray-sepulveda/"],
   ["Rude", "https://20essentials.github.io/rude/"],
   ["Rupert Holmes", "https://20essentials.github.io/rupert-holmes/"],
   ["Ryan Gosling", "https://20essentials.github.io/ryan-gosling/"],
+  ["Romeo Santos", "https://20essentials.github.io/romeo-santos/"],
+  ["Rancid", "https://20essentials.github.io/rancid/"],
 
   /* ======================= S ======================= */
   ["Sandra", "https://20essentials.github.io/sandra/"],
   ["Selena Gomez", "https://20essentials.github.io/selena-gomez/"],
-  ["Shakira", "https://20essentials.github.io/shakira/"],
+  ["Spider-man - Ost", "https://20essentials.github.io/spider-man-ost/"],
   ["Sawano Hiroyuki", "https://20essentials.github.io/sawano-hiroyuki/"],
   ["Stevie Wonder", "https://20essentials.github.io/stevie-wonder/"],
   ["Sia", "https://20essentials.github.io/sia/"],
-  ["Spider-man - Ost", "https://20essentials.github.io/spider-man-ost/"],
-  
+  ["Shakira", "https://20essentials.github.io/shakira/"],
+  ["Spandau Ballet", "https://20essentials.github.io/spandau-ballet/"],
+  ["Skrillex", "https://20essentials.github.io/skrillex/"],
+  ["Studio Killers", "https://20essentials.github.io/studio-killers/"],
+  ["Steve Lacy", "https://20essentials.github.io/st3ve-lacy/"],
+  ["Sigur Rós", "https://20essentials.github.io/sigur-ros/"],
 
   /* ======================= T ======================= */
   ["Terrence Mann", "https://20essentials.github.io/terrence-mann/"],
   ["Tyler Bates", "https://20essentials.github.io/tyler-bates/"],
-  ["The Dark Knight - Ost", "https://20essentials.github.io/the-dark-knight-ost/"],
-
+  [
+    "The Dark Knight - Ost",
+    "https://20essentials.github.io/the-dark-knight-ost/",
+  ],
 
   /* ======================= U ======================= */
 
   /* ======================= V ======================= */
+  ["Vampire Weekend", "https://20essentials.github.io/vampire-weekend/"],
+  ["Viti Ruiz", "https://20essentials.github.io/viti-ruiz/"],
 
   /* ======================= W ======================= */
 
