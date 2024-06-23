@@ -108,17 +108,23 @@ let bands = [
   ],
   ["Ana Gabriel", "https://20essentials.github.io/ana-gabriel/"],
   ["Agnes Obel", "https://20essentials.github.io/agnes-obel/"],
-  ["Alphex Twin", "https://20essentials.github.io/alphex-twin/"],
+  ["Avenida Larco - OST", "https://20essentials.github.io/avenida-larco-ost/"],
   ["Alex Bueno", "https://20essentials.github.io/alex-bueno/"],
   ["Axol", "https://20essentials.github.io/axol/"],
   ["Arcangel", "https://20essentials.github.io/arcangel/"],
   ["Autechre", "https://20essentials.github.io/autechre/"],
+  ["Alphex Twin", "https://20essentials.github.io/alphex-twin/"],
+  ["Alexander Rybak", "https://20essentials.github.io/alexander-rybak/"],
 
   /* ======================= B ======================= */
   ["Barren Gates", "https://20essentials.github.io/barren-gates/"],
   ["Bonobo", "https://20essentials.github.io/bonobo/"],
   ["Bruno Mars", "https://20essentials.github.io/bruno-mars/"],
   ["Bag Raiders", "https://20essentials.github.io/bag-raiders/"],
+  ["Beyoncé", "https://20essentials.github.io/beyonce/"],
+  ["Boston", "https://20essentials.github.io/boston/"],
+  ["Benson Boone", "https://20essentials.github.io/benson-boone/"],
+  ["Bob Dylan", "https://20essentials.github.io/bob-dylan/"],
   ["Breaking Bad", "https://20essentials.github.io/breaking-bad-ost/"],
 
   /* ======================= C ======================= */
@@ -127,6 +133,16 @@ let bands = [
   ["Chino y Nacho", "https://20essentials.github.io/chino-y-nacho/"],
   ["Can", "https://20essentials.github.io/can/"],
   ["Chuck Berry", "https://20essentials.github.io/chuck-berry/"],
+  ["Clint Mansell", "https://20essentials.github.io/clint-mansell/"],
+  ["Clovis Reyes", "https://20essentials.github.io/clovis-reyes/"],
+  ["Craspore", "https://20essentials.github.io/craspore/"],
+  ["Calvin Harris", "https://20essentials.github.io/calvin-harris/"],
+  ["Croixx", "https://20essentials.github.io/croixx/"],
+  [
+    "Cigarettes After Sex",
+    "https://20essentials.github.io/cigarettes-after-sex/",
+  ],
+  ["Coez", "https://20essentials.github.io/coez/"],
 
   /* ======================= D ======================= */
   ["Deorro", "https://20essentials.github.io/deorro/"],
@@ -137,6 +153,7 @@ let bands = [
   ["Disfigure", "https://20essentials.github.io/disfigure/"],
   ["Don Omar", "https://20essentials.github.io/don-omar/"],
   ["Daddy Yankee", "https://20essentials.github.io/da-dddy-yan-kee/"],
+  ["Daughter", "https://20essentials.github.io/daughter/"],
 
   /* ======================= E ======================= */
   ["Enrique Iglesias", "https://20essentials.github.io/enrique-iglesias/"],
@@ -151,15 +168,23 @@ let bands = [
 
   /* ======================= F ======================= */
   ["French Montana", "https://20essentials.github.io/french-montana/"],
+  ["Final Fantasy VII - OST", "https://20essentials.github.io/final-fantasy-7-ost/"],
+  ["Fatboy Slim", "https://20essentials.github.io/fatboy-slim/"],
+  ["Fantom ‘87", "https://20essentials.github.io/fantom-87/"],
+  ["Fuego", "https://20essentials.github.io/fuego/"],
 
   /* ======================= G ======================= */
   ["Gaitán Castro", "https://20essentials.github.io/duo-hermanos-gaitan/"],
+  ["Glwzbll", "https://20essentials.github.io/glwzbll/"],
+  ["Grouplove", "https://20essentials.github.io/grouplove/"],
 
   /* ======================= H ======================= */
   ["Harry Styles", "https://20essentials.github.io/harry-styles/"],
   ["Ha-ash", "https://20essentials.github.io/ha-ash/"],
   ["Hiroyuki Sawano", "https://20essentials.github.io/sawano-hiroyuki/"],
   ["Hardwell", "https://20essentials.github.io/hardwell/ "],
+  ["Hibou", "https://20essentials.github.io/hibou/"],
+  ["How To Train Your Dragon - Ost", "https://20essentials.github.io/how-to-train-your-dragon/"],
 
   /* ======================= I ======================= */
   ["Ivan", "https://20essentials.github.io/ivan/"],
@@ -169,18 +194,23 @@ let bands = [
 
   /* ======================= J ======================= */
   ["John Newman", "https://20essentials.github.io/john-newman/"],
-  ["Juan Gabriel", "https://20essentials.github.io/juan-gabriel/"],
-  ["Johnny Steele", "https://20essentials.github.io/terrence-mann/"],
+  ["JCole", "https://20essentials.github.io/jcole/"],
+  ["Janji", "https://20essentials.github.io/janji/"],
   ["Jaymes Young", "https://20essentials.github.io/james-young/"],
   ["Jim Yosef", "https://20essentials.github.io/jim-yosef/"],
   ["John Williams", "https://20essentials.github.io/john-williams/"],
   ["Joy Division", "https://20essentials.github.io/joy-division/"],
   ["Jamiroquai", "https://20essentials.github.io/jamiroquai/"],
+  ["Jo Cohen", "https://20essentials.github.io/jo-cohen/"],
+  ["Johnny Steele", "https://20essentials.github.io/terrence-mann/"],
+  ["Jet", "https://20essentials.github.io/jet/"],
+  ["Juan Gabriel", "https://20essentials.github.io/juan-gabriel/"],
 
   /* ======================= K ======================= */
   ["Kavinsky", "https://20essentials.github.io/kavinsky/"],
   ["Kanye West", "https://20essentials.github.io/kanye-west/"],
   ["Kmfdm", "https://20essentials.github.io/kmfdm/"],
+  ["Kaiser Chiefs", "https://20essentials.github.io/kaiser-chiefs/"],
 
   /* ======================= L ======================= */
   ["Lenny Kravitz", "https://20essentials.github.io/lenny-kravitz/"],
@@ -191,6 +221,11 @@ let bands = [
   ["Laura Branigan", "https://20essentials.github.io/laura-branigan/"],
   ["Le Castle Vania", "https://20essentials.github.io/le-castle-vania/"],
   ["Lcd SoundSystem", "https://20essentials.github.io/lcd_soundsystem/"],
+  ["Lisa", "https://20essentials.github.io/lisa/"],
+  ["League Of Legends - Ost", "https://20essentials.github.io/lol-ost/"],
+  ["L.O.L - OST", "https://20essentials.github.io/lol-ost/"],
+  ["LazerPunk", "https://20essentials.github.io/lazerpunk/"],
+  ["Lana del Rey", "https://20essentials.github.io/lana-del-rey/"],
 
   /* ======================= M ======================= */
   ["Marilyn Manson", "https://20essentials.github.io/marilyn-manson/"],
@@ -201,11 +236,15 @@ let bands = [
   ["Mr. Kitty", "https://20essentials.github.io/mr-kitty/"],
   ["Mike Menna", "https://20essentials.github.io/mike-menna/"],
   ["Miki Gonzales", "https://20essentials.github.io/miki-gonzales/"],
+  ["Macklemore", "https://20essentials.github.io/macklemore/"],
+  ["Marwa Loud", "https://20essentials.github.io/marwa-loud/"],
+  ["Matrix - Ost", "https://20essentials.github.io/matrix-ost/"],
 
   /* ======================= N ======================= */
   ["Noisestorm", "https://20essentials.github.io/noisestorm/"],
   ["NickelBack", "https://20essentials.github.io/nickelback/ "],
   ["Narvent", "https://20essentials.github.io/narvent/"],
+  ["Neon Rox", "https://20essentials.github.io/neon-rox/"],
 
   /* ======================= O ======================= */
   ["Ofdream", "https://20essentials.github.io/ofdream/"],
@@ -213,6 +252,7 @@ let bands = [
     "Of Monsters and Men",
     "https://20essentials.github.io/of-monsters-and-men/",
   ],
+  ["Oneheart", "https://20essentials.github.io/oneheart/"],
 
   /* ======================= P ======================= */
   ["Pat Benatar", "https://20essentials.github.io/pat-benatar/"],
@@ -226,6 +266,10 @@ let bands = [
   ["Pepe Vásquez", "https://20essentials.github.io/pepe-vasquez/"],
   ["Prince Royce", "https://20essentials.github.io/princ3-royce/"],
   ["Pearl Jam", "https://20essentials.github.io/pearl-jam/"],
+  ["Power Rangers - Wild Force - OST", "https://20essentials.github.io/power-rangers-wild-force/"],
+  ["Power Rangers - Jungle Fury - OST", "https://20essentials.github.io/power-rangers-jungle-fury/"],
+  ["Pachelbel", "https://20essentials.github.io/pachelbel/"],
+  ["Prismo", "https://20essentials.github.io/prismo/"],
 
   /* ======================= Q ======================= */
 
@@ -238,9 +282,13 @@ let bands = [
   ["Ryan Gosling", "https://20essentials.github.io/ryan-gosling/"],
   ["Romeo Santos", "https://20essentials.github.io/romeo-santos/"],
   ["Rancid", "https://20essentials.github.io/rancid/"],
+  ["Rush", "https://20essentials.github.io/rush/"],
+  ["Robert Miles", "https://20essentials.github.io/robert-miles/"],
+  ["Resident Evil - OST", "https://20essentials.github.io/resident-evil-ost/"],
+  ["Ráfaga", "https://20essentials.github.io/rafaga/"],
 
   /* ======================= S ======================= */
-  ["Sandra", "https://20essentials.github.io/sandra/"],
+  ["Skyrim - OST", "https://20essentials.github.io/skyrim-ost/"],
   ["Selena Gomez", "https://20essentials.github.io/selena-gomez/"],
   ["Spider-man - Ost", "https://20essentials.github.io/spider-man-ost/"],
   ["Sawano Hiroyuki", "https://20essentials.github.io/sawano-hiroyuki/"],
@@ -252,6 +300,9 @@ let bands = [
   ["Studio Killers", "https://20essentials.github.io/studio-killers/"],
   ["Steve Lacy", "https://20essentials.github.io/st3ve-lacy/"],
   ["Sigur Rós", "https://20essentials.github.io/sigur-ros/"],
+  ["Sandra", "https://20essentials.github.io/sandra/"],
+  ["Surf Curse", "https://20essentials.github.io/surf-curse/"],
+  
 
   /* ======================= T ======================= */
   ["Terrence Mann", "https://20essentials.github.io/terrence-mann/"],
@@ -266,12 +317,18 @@ let bands = [
   /* ======================= V ======================= */
   ["Vampire Weekend", "https://20essentials.github.io/vampire-weekend/"],
   ["Viti Ruiz", "https://20essentials.github.io/viti-ruiz/"],
+  ["Vicetone", "https://20essentials.github.io/vicetone/"],
+  ["Vanze", "https://20essentials.github.io/vanze/"],
 
   /* ======================= W ======================= */
-
+  ["War", "https://20essentials.github.io/war/"],
+  ["Wafia", "https://20essentials.github.io/wafia/"],
+  ["Wookid", "https://20essentials.github.io/woodkid/"],
+  
   /* ======================= X ======================= */
-
+  
   /* ======================= Y ======================= */
+  ["Your Lie in April - OST", "https://20essentials.github.io/your-lie-in-april/"],
 
   /* ======================= Z ======================= */
   ["Zambo Cavero", "https://20essentials.github.io/zambo-cavero/"],
