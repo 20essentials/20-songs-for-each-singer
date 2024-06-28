@@ -1,4 +1,5 @@
-let d = document;
+let d = document,
+  $borrar = d.querySelector(".borrar");
 
 console.group("Reference");
 console.log(
@@ -18,6 +19,17 @@ function autocomplete(inpt, elArray) {
       b,
       i,
       val = this.value;
+
+    if (val.length >= 1) {
+      d.querySelector(".busqueda").classList.add("invisible");
+      $borrar.classList.remove("invisible");
+    }
+
+    if (val.length === 0) {
+      d.querySelector(".busqueda").classList.toggle("invisible");
+      $borrar.classList.toggle("invisible");
+    }
+
     closeAllLists();
     if (!val) return false;
     currentFocus = -1;
@@ -97,6 +109,12 @@ function autocomplete(inpt, elArray) {
 
   document.addEventListener("click", function (e) {
     closeAllLists(e.target);
+
+    if (e.target.matches(".borrar")) {
+      let $input = d.querySelector("input");
+      $input.value = "";
+      $input.focus();
+    }
   }); /* fin */
 } /* fin autocomplete function */
 
@@ -154,6 +172,7 @@ let bands = [
   ["Don Omar", "https://20essentials.github.io/don-omar/"],
   ["Daddy Yankee", "https://20essentials.github.io/da-dddy-yan-kee/"],
   ["Daughter", "https://20essentials.github.io/daughter/"],
+  ["David Kushner", "https://20essentials.github.io/david-kushner/"],
 
   /* ======================= E ======================= */
   ["Enrique Iglesias", "https://20essentials.github.io/enrique-iglesias/"],
@@ -168,7 +187,10 @@ let bands = [
 
   /* ======================= F ======================= */
   ["French Montana", "https://20essentials.github.io/french-montana/"],
-  ["Final Fantasy VII - OST", "https://20essentials.github.io/final-fantasy-7-ost/"],
+  [
+    "Final Fantasy VII - OST",
+    "https://20essentials.github.io/final-fantasy-7-ost/",
+  ],
   ["Fatboy Slim", "https://20essentials.github.io/fatboy-slim/"],
   ["Fantom ‘87", "https://20essentials.github.io/fantom-87/"],
   ["Fuego", "https://20essentials.github.io/fuego/"],
@@ -184,7 +206,10 @@ let bands = [
   ["Hiroyuki Sawano", "https://20essentials.github.io/sawano-hiroyuki/"],
   ["Hardwell", "https://20essentials.github.io/hardwell/ "],
   ["Hibou", "https://20essentials.github.io/hibou/"],
-  ["How To Train Your Dragon - Ost", "https://20essentials.github.io/how-to-train-your-dragon/"],
+  [
+    "How To Train Your Dragon - Ost",
+    "https://20essentials.github.io/how-to-train-your-dragon/",
+  ],
 
   /* ======================= I ======================= */
   ["Ivan", "https://20essentials.github.io/ivan/"],
@@ -211,6 +236,7 @@ let bands = [
   ["Kanye West", "https://20essentials.github.io/kanye-west/"],
   ["Kmfdm", "https://20essentials.github.io/kmfdm/"],
   ["Kaiser Chiefs", "https://20essentials.github.io/kaiser-chiefs/"],
+  ["Kina", " https://20essentials.github.io/kina/"],
 
   /* ======================= L ======================= */
   ["Lenny Kravitz", "https://20essentials.github.io/lenny-kravitz/"],
@@ -266,8 +292,14 @@ let bands = [
   ["Pepe Vásquez", "https://20essentials.github.io/pepe-vasquez/"],
   ["Prince Royce", "https://20essentials.github.io/princ3-royce/"],
   ["Pearl Jam", "https://20essentials.github.io/pearl-jam/"],
-  ["Power Rangers - Wild Force - OST", "https://20essentials.github.io/power-rangers-wild-force/"],
-  ["Power Rangers - Jungle Fury - OST", "https://20essentials.github.io/power-rangers-jungle-fury/"],
+  [
+    "Power Rangers - Wild Force - OST",
+    "https://20essentials.github.io/power-rangers-wild-force/",
+  ],
+  [
+    "Power Rangers - Jungle Fury - OST",
+    "https://20essentials.github.io/power-rangers-jungle-fury/",
+  ],
   ["Pachelbel", "https://20essentials.github.io/pachelbel/"],
   ["Prismo", "https://20essentials.github.io/prismo/"],
 
@@ -302,7 +334,6 @@ let bands = [
   ["Sigur Rós", "https://20essentials.github.io/sigur-ros/"],
   ["Sandra", "https://20essentials.github.io/sandra/"],
   ["Surf Curse", "https://20essentials.github.io/surf-curse/"],
-  
 
   /* ======================= T ======================= */
   ["Terrence Mann", "https://20essentials.github.io/terrence-mann/"],
@@ -324,11 +355,14 @@ let bands = [
   ["War", "https://20essentials.github.io/war/"],
   ["Wafia", "https://20essentials.github.io/wafia/"],
   ["Wookid", "https://20essentials.github.io/woodkid/"],
-  
+
   /* ======================= X ======================= */
-  
+
   /* ======================= Y ======================= */
-  ["Your Lie in April - OST", "https://20essentials.github.io/your-lie-in-april/"],
+  [
+    "Your Lie in April - OST",
+    "https://20essentials.github.io/your-lie-in-april/",
+  ],
 
   /* ======================= Z ======================= */
   ["Zambo Cavero", "https://20essentials.github.io/zambo-cavero/"],
@@ -346,7 +380,7 @@ function rain() {
   let body = document.body,
     i = 0;
 
-  while (i < amount) {
+  while (i < amount && amount <= 108) {
     let drop = document.createElement("i");
 
     let size = Math.random() * 5;
@@ -380,3 +414,33 @@ d.addEventListener("input", (e) => {
     }
   }
 });
+
+/* ======================= MEDIA  ======================= */
+
+let w = window;
+
+let currentOrientation = screen.orientation.type;
+
+function handleOrientationChange() {
+  const newOrientation = screen.orientation.type;
+
+  if (
+    newOrientation.startsWith("portrait") &&
+    !currentOrientation.startsWith("portrait")
+  ) {
+    currentOrientation = newOrientation;
+    location.reload();
+  } else if (
+    newOrientation.startsWith("landscape") &&
+    !currentOrientation.startsWith("landscape")
+  ) {
+    currentOrientation = newOrientation;
+    location.reload(); // Esto se ejecutará solo una vez al cambiar a landscape
+  }
+}
+
+// Añadir listener para cambios en la orientación
+screen.orientation.addEventListener("change", handleOrientationChange);
+
+// Llamar a la función inicialmente para manejar el estado actual
+handleOrientationChange();

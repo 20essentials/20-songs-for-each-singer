@@ -21,6 +21,68 @@ body {
   padding: 0;
 }
 
+.redirection {
+  position: fixed;
+  top: .6rem;
+  left: .6rem;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  z-index: 1200;
+  scale: .5;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: #0f0;
+  }
+
+  * {
+    pointer-events: none;
+    transition: .2s;
+  }
+
+  .quadr {
+    width: 100%;
+    height: 100%;
+    border: 6px solid currentColor;
+    border-radius: 8px;
+
+    .arrow {
+      height: 100%;
+      width: 6px;
+      background-color: currentColor;
+      position: absolute;
+      left: 50%;
+      top: -61%;
+      transform-origin: 0% 100%;
+      transform: translate(-50%, 0) rotate(45deg);
+
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 45%;
+        border-radius: 5vw 5vw 0 0;
+        top: 1px;
+      }
+
+      &::before {
+        background-color: currentColor;
+        transform-origin: top;
+        transform: rotate(-45deg);
+      }
+
+      &::after {
+        background-color: currentColor;
+        transform-origin: top;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
 
 .centrar {
   position: relative;
@@ -103,7 +165,7 @@ form {
   padding: .5rem;
   flex-wrap: wrap;
   place-content: center;
-  width: 46%;
+  width: 36%;
   border-radius: 999px;
   background-image: linear-gradient(143deg, #04aa6d, #333, #04aa6d);
   background-size: 1000% 100%;
@@ -111,7 +173,7 @@ form {
   margin-inline: auto;
   text-align: left;
 
-  span {
+  span.buscar {
     color: black;
     height: 40px;
     align-content: center;
@@ -123,6 +185,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     place-content: center;
+    cursor: pointer;
 
     * {
       margin: 0;
@@ -132,28 +195,42 @@ form {
     .busqueda {
       width: .9rem;
       height: .9rem;
-      border: 3px solid currentColor;
+      border: 2px solid currentColor;
       border-radius: 50%;
       position: relative;
       transform: rotate(140deg);
       top: -.3rem;
       left: -.3rem;
+      user-select: none;
+
+      .busqueda-barrita {
+        width: 2px;
+        height: .8rem;
+        position: absolute;
+        bottom: 100%;
+        left: 45%;
+        background-color: currentColor;
+      }
     }
 
-    .busqueda-barrita {
-      width: 3px;
-      height: .8rem;
-      position: absolute;
-      bottom: 100%;
-      left: 45%;
-      background-color: currentColor;
+    .borrar {
+      font-size: 2em;
+      font-weight: 900;
+      user-select: none;
+
+      * {
+        pointer-events: none;
+      }
     }
 
-    &:hover {
-      background-color: black;
-      color: lime;
-      cursor: pointer;
+    .invisible {
+      display: none;
     }
+  }
+
+  span.buscar:hover {
+    background-color: black;
+    color: lime;
   }
 
   span,
@@ -681,13 +758,6 @@ i:nth-child(3n + 3) {
 
 /* ============================MEDIA============================*/
 
-@media (width <=600px) {
-  form {
-    width: 90%;
-  }
-
-
-}
 
 @media only screen and (orientation: landscape) and (width <=1000px) {
 
@@ -695,11 +765,15 @@ i:nth-child(3n + 3) {
   html {
     width: 100%;
     height: 100%;
-    margin: 0;
   }
 
-  body {
-    background-color: transparent;
+  form {
+    width: 64% !important;
+  }
+
+  .redirection {
+    top: initial;
+    bottom: .7rem;
   }
 
 
@@ -709,12 +783,9 @@ i:nth-child(3n + 3) {
     place-content: center;
     column-gap: 2rem;
     height: 100%;
-    z-index: 700;
-    background-image: linear-gradient(45deg, lightgreen, lightblue, violet, lightgreen, lightblue, violet);
-    background-size: 1000% 100%;
-    animation: cambiar 6s ease infinite;
 
-    .contenedor {
+
+    .pyramid-loader {
       display: none;
     }
 
@@ -733,40 +804,33 @@ i:nth-child(3n + 3) {
   }
 
   .switch {
-    display: none;
+    scale: .8;
   }
 
   .left {
     top: 1rem;
   }
 
-  i {
+  .contenedor {
     display: none;
   }
-
 }
 
-@keyframes cambiar {
-  0% {
-    background-position: 0% 50%;
-  }
 
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@media only screen and (orientation: portrait) and (width <=500px) {
+@media only screen and (orientation: portrait) and (width <=600px) {
   .centrar {
     padding-bottom: 9rem;
   }
 
+  form {
+    width: 90%;
+  }
+
+  .pyramid-loader {
+    width: 90%;
+  }
+
   .contenedor {
-    margin-bottom: 7rem;
-    top: 5rem;
+    margin-bottom: 3.5rem;
   }
 }
